@@ -1,0 +1,444 @@
+
+.primary{
+    color:orange ; 
+    
+}
+.linkColor{
+    color:#45A29E;
+}
+
+.font-xl{
+    font-size:72px;
+}
+.addButtonPosition{
+    min-height: 5vh;
+    
+}
+.formLogin{
+  color:#C5C6C7;
+    min-height: 20vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.logInButton{
+    color:#45A29E;
+    background: #C5C6C7;
+    cursor: pointer;
+    transition:all 0.3s ease;
+    padding:0.3rem;
+    font-size:1.1rem;
+    border:none;
+}
+.logInButton:hover{
+  background:#45A29E;
+  color:#C5C6C7;
+  
+}
+.closeButton{
+  color:#45A29E;
+  background: #C5C6C7;
+  cursor: pointer;
+  transition:all 0.3s ease;
+  padding:0.1rem;
+  font-size:1.1rem;
+  border-radius: 1%;
+}
+.closeButton:hover{
+  background:#45A29E;
+  color:#C5C6C7;
+}
+.updateButton{
+  color:#45A29E;
+    background: #C5C6C7;
+    cursor: pointer;
+    transition:all 0.3s ease;
+    padding:0.1rem;
+    font-size:1.1rem;
+    border-radius: 1%;
+}
+.updateButton:hover{
+  background:#45A29E;
+  color:#C5C6C7;
+}
+.readMoreButton{
+  color:#45A29E;
+    background: #C5C6C7;
+    cursor: pointer;
+    transition:all 0.3s ease;
+    padding:0.1rem;
+    font-size:1.1rem;
+    border-radius: 1%;
+}
+.readMoreButton:hover{
+  background:#45A29E;
+  color:#C5C6C7;
+}
+
+textarea {
+    max-width: 50%;
+    resize: vertical;
+}
+.description{
+    font-size: 1rem;
+    padding:0.2rem;
+    vertical-align: middle;
+    border-radius: 1%;
+    width: 17em;
+    height: 2em;
+    background:#C5C6C7;
+}
+.header-position{
+  position:relative;
+  top:-200px;
+  color:#5be7de;
+}
+.link-position{
+  position:relative;
+  color:#45A29E;
+  top: 20px;
+  margin-right:-10px;
+}
+.update-form{
+  position:absolute;
+  text-align: center;
+}
+.update-form-positions{
+  position:relative;
+  border-radius: 1%;
+  padding: 10px;
+  margin-right:50px;
+  top:20px;
+}
+
+.descriptionUpdate{
+  font-size: 1rem;
+  padding:0.2rem;
+  background:#C5C6C7;
+  left:655px; 
+}
+.blogHeader{
+    color:#5be7de;
+    position: absolute;
+    left:505px;
+    top:50px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.saveBlogButton{
+  color:#45A29E;
+  background: #C5C6C7;
+  cursor: pointer;
+  transition:all 0.3s ease;
+  padding:0.3rem;
+  font-size:1.1rem;
+  border:none;
+}
+.saveBlogButton:hover{
+  background:#45A29E;
+    color:#C5C6C7;
+}
+.saveAccButton{
+  color:#45A29E;
+  background: #C5C6C7;
+  cursor: pointer;
+  transition:all 0.3s ease;
+  padding:0.3rem;
+  font-size:1.1rem;
+  border:none;
+}
+
+.saveAccButton:hover{
+    background:#45A29E;
+    color:#C5C6C7;
+}
+.editComponent{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+     font-size: 2rem;
+     background-image: linear-gradient(120deg,#0B0C10,#1F2833
+     );
+}
+.updateFormInputs{
+  font-size: 1rem;
+  padding:0.5rem;
+  border:none;
+  background:#C5C6C7;
+}
+.update-description{
+  position: relative;
+}
+.update-form-description{
+  font-size: 1rem;
+  padding:0.1rem;
+  vertical-align: middle;
+  border-radius: 1%;
+  width: 16em;
+  height: 2.5em;
+  background:#C5C6C7;
+}
+.login-inputs{
+  position:relative;
+  border-radius: 1%;
+  padding: 10px;
+  top:-50px;
+}
+.form-login{
+  position:absolute;
+  text-align: center;
+}
+.update-form-button-update{
+  position:relative;
+  margin-right:-10px;
+}
+.update-form-close-button{
+  position:relative;
+  top:63px;
+  margin-right: -530px;
+}
+.updateFormLabels{
+  color:#45A29E;
+  display: inline-block;
+  width: 168px;   
+  text-align: right;
+}
+.descriptionWidth{
+  max-height: 10vh;
+}
+.linkToRegister{
+  position: relative;
+  top:70px;
+  font-size: 1rem;
+    
+    
+}
+.login-form-positions{
+  position:relative;
+  top:-45px;
+}
+.linkToLogin{
+    font-size: 1.3rem;
+    position:absolute; 
+    left:662px;
+     top:550px
+}
+.blogInfo{
+    max-width: 50%;
+    margin: 0.5rem;
+    display:flex;
+    justify-content: space-between;
+}
+.blog-info{
+  position:absolute;
+  text-align: center;
+  
+  margin-bottom: 10px;
+
+  
+}
+.blog-info-positions{
+  position:relative;
+  border-radius: 1%;
+ 
+  padding: 10px;
+  margin: 0;
+  margin-right:130px;
+  
+}
+.blog-button-position{
+  position:relative;
+  margin-right:-10px;
+}
+
+
+
+.loginHeader{
+  position:relative;
+  top:-160px;
+      color:#5be7de;
+      font-size: 2.8em;
+    
+     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.headerLogin{
+  font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+  .logOutButton{
+    color:#45A29E;
+    background: #C5C6C7;
+    cursor: pointer;
+    transition:all 0.3s ease;
+    padding:0.3rem;
+    font-size:1.1rem;
+    border:none;
+
+  }
+.logOutButton:hover{
+  background:#45A29E;
+  color:#C5C6C7;
+}
+
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      color:gray;
+      opacity:0.1;
+    }
+    50% {
+      opacity: 0.3;
+      color:grey;
+    }
+    100% {
+      transform: translateX(0);
+      color:#45A29E;
+    }
+  }
+  .ele1 {
+    position:relative;
+    top:-150px;
+    left:-105px;
+    color:#45A29E;
+    font-size: 1em;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+  .ele2 {
+    position:relative;
+    top:-183px;
+    left:-5px;
+    color:#45A29E;
+    font-size: 1em;
+    animation:1.2s ease-out 0s 1 slideInFromLeft;
+  }
+  
+  .ele3 {
+    position:relative;
+    top:-217px;
+    left:95px;
+    color:#45A29E;
+    font-size: 1em;
+    animation: 1.4s ease-out 0s 1 slideInFromLeft;
+
+  }
+  
+ 
+.loginInputs{
+  font-size: 1.1rem;
+    padding:0.5rem;
+    border:none;
+    background:#C5C6C7;
+    
+   
+   
+}
+.blogLabels{
+  color:#45A29E;
+  display: inline-block;
+  width: 150px;   
+  text-align: right;
+  font-size:1.8rem;
+
+}
+
+.blogInputs{
+    font-size: 1rem;
+    padding:0.5rem;
+    border:none;
+    background:#C5C6C7;
+    
+    
+}
+.registerHeader{
+    font-size: 2.5rem;
+   
+}
+.registerInputs{
+  
+
+    font-size: 1rem;
+    padding:0.5rem;
+    border:none;
+    background:#C5C6C7;
+    
+    left:655px; 
+   
+}
+.deleteButton{
+  color:#45A29E;
+  background: #C5C6C7;
+  cursor: pointer;
+  transition:all 0.3s ease;
+  padding:0.1rem;
+  font-size:1.1rem;
+  border-radius: 1%;
+  
+  
+}
+
+@keyframes slideOutToRight {
+  0% {
+    transform: translateX(0);
+  }
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 0.4;
+    color:grey;
+  }
+  100% {
+    transform: translateX(700%);
+  }
+}
+.deleteButton:hover{
+  background:#45A29E;
+  color:#C5C6C7;
+}
+
+.blogpost-container {
+  max-width: 80vw;
+}
+
+.blogpost {
+  word-wrap: break-word;
+  background-color: rgba(107, 107, 107, 0.801);
+  border-radius: 1%;
+  margin: 15px;
+  padding: 10px;
+}
+
+.title{
+  color:#5be7de;
+}
+.descriptionText{
+  color:#45A29E;
+}
+.editComponent {
+  position: absolute;
+  width: 35vw;
+  height: 25vw;
+  bottom: 15vw;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1%;
+  transition: 0.1s all ease-in-out;
+  z-index: 150;
+}
+
+.editComponent:hover {
+  transform: scale(1.01);
+}
+
+.shadow-opened {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  z-index: 149;
+  background-color: rgba(0, 0, 0, 0.61);
+}
